@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">WakeMeGPS dark mark</title>
+  <desc id="logo-desc">Ink geofence ring and center dot, for light backgrounds.</desc>
+  <g id="logo-symbol" fill="none">
+    <circle cx="256" cy="256" r="148" stroke="#1c1914" stroke-width="28"/>
+    <circle cx="256" cy="256" r="36" fill="#1c1914" stroke="none"/>
+  </g>
+</svg>

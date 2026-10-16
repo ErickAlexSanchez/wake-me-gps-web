@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">WakeMeGPS vertical</title>
+  <desc id="logo-desc">Geofence mark above the WakeMeGPS wordmark.</desc>
+  <g id="logo-symbol" fill="none" transform="translate(128 24) scale(0.75)">
+    <circle cx="256" cy="256" r="148" stroke="#ffb000" stroke-width="28"/>
+    <circle cx="256" cy="256" r="36" fill="#ffb000" stroke="none"/>
+  </g>
+  <g id="logo-text">
+    <text x="320" y="500" text-anchor="middle" fill="#ffb000" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">WakeMeGPS</text>
+  </g>
+</svg>

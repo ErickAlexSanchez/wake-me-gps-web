@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 220" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">WakeMeGPS lettermark horizontal</title>
+  <desc id="logo-desc">W inside a ring beside the WakeMeGPS wordmark.</desc>
+  <g id="logo-symbol" transform="translate(20 20) scale(0.3516)">
+    <circle cx="256" cy="256" r="168" fill="none" stroke="#ffb000" stroke-width="22"/>
+    <text x="256" y="292" text-anchor="middle" fill="#ffb000" font-family="Segoe UI, Arial, sans-serif" font-size="200" font-weight="700">W</text>
+  </g>
+  <g id="logo-text">
+    <text x="230" y="132" fill="#ffb000" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">WakeMeGPS</text>
+  </g>
+</svg>

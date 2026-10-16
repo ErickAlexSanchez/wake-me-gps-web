@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 220" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">WakeMeGPS pulse horizontal</title>
+  <desc id="logo-desc">Pulse mark beside the WakeMeGPS wordmark.</desc>
+  <g id="logo-symbol" fill="none" stroke="#ffb000" stroke-linecap="round" transform="translate(20 20) scale(0.3516)">
+    <circle cx="256" cy="256" r="168" stroke-width="16" opacity="0.35"/>
+    <circle cx="256" cy="256" r="116" stroke-width="20" opacity="0.7"/>
+    <circle cx="256" cy="256" r="64" stroke-width="24"/>
+    <circle cx="256" cy="256" r="18" fill="#ffb000" stroke="none"/>
+  </g>
+  <g id="logo-text">
+    <text x="230" y="132" fill="#ffb000" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700">WakeMeGPS</text>
+  </g>
+</svg>

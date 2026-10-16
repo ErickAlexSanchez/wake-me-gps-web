@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0e1412" />
+    <meta name="description" content="Alarma que suena cuando llegas a un lugar." />
+    <title>WakeMeGPS</title>
+    <script>
+      (function () {
+        var theme = 'dark'
+        var locale = 'es'
+        try {
+          var raw = localStorage.getItem('ya-llegue.prefs')
+          var prefs = raw ? JSON.parse(raw) : {}
+          var language = (navigator.language || '').toLowerCase()
+          if (prefs.locale === 'en' || prefs.locale === 'es') locale = prefs.locale
+          else if (language.indexOf('en') === 0) locale = 'en'
+          var systemLight = window.matchMedia('(prefers-color-scheme: light)').matches
+          if (prefs.theme === 'light' || prefs.theme === 'dark') theme = prefs.theme
+          else theme = systemLight ? 'light' : 'dark'
+        } catch (e) { /* keep the night default if storage is blocked */ }
+        var root = document.documentElement
+        root.lang = locale
+        root.dataset.theme = theme
+        var meta = document.querySelector('meta[name="theme-color"]')
+        if (meta) meta.setAttribute('content', theme === 'light' ? '#f4efe2' : '#0e1412')
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
