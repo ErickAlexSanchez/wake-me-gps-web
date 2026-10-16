@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+.vercel
+
+# This repository is the website. The Android project and the Play listing stay local.
+/android/
+/play-store/
+dist-ssr
+*.local
+.env*
+*.jks
+*.keystore
+keystore.properties
+android/.gradle/
+android/app/build/
+android/build/
+android/app/src/main/assets/public/
+android/app/release/
+native-icons/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

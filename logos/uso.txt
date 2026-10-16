@@ -1,0 +1,21 @@
+# WakeMeGPS logo
+
+The mark in the app is concept 1, the radius: an amber ring and a center dot on night green. That ring is the alarm's radius.
+
+Colors
+- Night: #0e1412
+- Amber: #ffb000
+- Cream: #f4efe2
+- Ink: #1c1914
+
+Files
+- logos/concept-1-radio/icon.svg is the app icon, the favicon, and the Play icon.
+- horizontal.svg and vertical.svg place the name beside or under the mark.
+- icon-mono-light.svg is the cream mark, for dark backgrounds.
+- icon-mono-dark.svg is the ink mark, for light backgrounds.
+- concept-2-pulso and concept-3-w are unused alternatives.
+
+Leave clear space around the mark about the size of the center dot.
+Keep the proportions and these colors. Play rounds the icon and draws the shadow.
+
+Minimum size on screen: 48 px.
